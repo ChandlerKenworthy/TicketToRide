@@ -1,5 +1,7 @@
+#include "Card.hpp"
+#include "Colors.hpp"
 #include <iostream>
 
 int main() {
-    std::cout << "Hello, world." << std::endl;
+    Card myCard {Color::blue};
 }

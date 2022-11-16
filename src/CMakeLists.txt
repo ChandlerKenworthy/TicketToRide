@@ -5,8 +5,10 @@ set(CMAKE_VERBOSE_MAKEFILE ON)
 
 add_executable(ticket-to-ride 
     TicketToRide.cpp
-    items/card.hpp
-    items/card.cpp
+    items/Colors.hpp
+    items/Destinations.hpp
+    items/Card.hpp
+    items/Card.cpp
 )
 
 target_include_directories(ticket-to-ride
