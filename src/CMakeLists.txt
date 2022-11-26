@@ -9,10 +9,15 @@ add_executable(ticket-to-ride
     items/Destinations.hpp
     items/Card.hpp
     items/Card.cpp
+    board/Tile.hpp
+    board/Tile.cpp
+    board/Utils.hpp
 )
 
 target_include_directories(ticket-to-ride
-    PRIVATE items
+    PRIVATE
+    items
+    board
 )
 
 set(CMAKE_CXX_EXTENSIONS OFF)
